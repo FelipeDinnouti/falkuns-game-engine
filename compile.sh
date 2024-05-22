@@ -1,0 +1,1 @@
+g++ -I /home/falkun/Graphics/FsGe/include -o executable.out src/main.cpp -Llib -lglfw -lrt -lm -ldl 
