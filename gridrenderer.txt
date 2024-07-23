@@ -1,0 +1,4 @@
+Making grid rendered using openGl:
+
+Draw squares using shaders, each frame loop through each cell and render the cell accordingly.
+The cell position is passed to the shader and the shader draws it where it should.
