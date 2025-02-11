@@ -1,0 +1,6 @@
+{
+"cmd" : ["g++ -I $file_path/../include -o compiled/executable.out '$file_name' -Llib -lglfw -lrt -lm -ldl  && echo builded"], 
+"selector" : "source.c, source.cpp",
+"shell": true,
+"working_dir" : "$file_path"
+}
