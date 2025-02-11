@@ -127,7 +127,7 @@ int main()
         return -1;
     }   
 
-   Shader mainShader("/home/falkun/Graphics/FsGe/shaders/grid_vertex.vs","/home/falkun/Graphics/FsGe/shaders/grid_fragment.fs");
+   Shader mainShader("/home/falkun/Remote/FsGe/shaders/grid_vertex.vs","/home/falkun/Remote/FsGe/shaders/grid_fragment.fs");
 
    // Initialization:
    glfwSetCursorPosCallback(window, mouse_callback);

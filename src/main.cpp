@@ -9,7 +9,6 @@
 #include <bits/stdc++.h>
 #include <list>
 #include <iterator>
-
 #include <iostream>
 #include <cmath>
 #include <fstream>
@@ -90,8 +89,8 @@ int main()
         return -1;
     }   
 
-   Shader mainShader("/home/falkun/Graphics/FsGe/shaders/vertex.vs","/home/falkun/Graphics/FsGe/shaders/fragment.fs");
-   Shader lightcubeShader("/home/falkun/Graphics/FsGe/shaders/vertex.vs","/home/falkun/Graphics/FsGe/shaders/lightcube_fragment.fs");
+   Shader mainShader("/home/falkun/Remote/FsGe/shaders/vertex.vs","/home/falkun/Remote/FsGe/shaders/fragment.fs");
+   Shader lightcubeShader("/home/falkun/Remote/FsGe/shaders/vertex.vs","/home/falkun/Remote/FsGe/shaders/lightcube_fragment.fs");
 
 
    // Initialization:
